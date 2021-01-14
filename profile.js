@@ -26,6 +26,7 @@ function submitdata(){
         prevpost=userobj.mypost;
 
     }
+    // upto here
     let user = {
     "mypost":prevpost,   
     "Name":name,
