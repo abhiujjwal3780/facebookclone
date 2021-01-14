@@ -19,8 +19,15 @@ function submitdata(){
 
     var n = obj.name;
     var p = obj.pass;
+    //abhishek change this
+    let prevpost=[];
+    let userobj=JSON.parse(localStorage.getItem(email));
+    if('mypost' in userobj){
+        prevpost=userobj.mypost;
+
+    }
     let user = {
-     "mypost":["str"],   
+    "mypost":prevpost,   
     "Name":name,
     "Email":email,
     "Birthday":birthday,
