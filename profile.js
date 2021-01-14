@@ -20,7 +20,7 @@ function submitdata(){
     var n = obj.name;
     var p = obj.pass;
     let user = {
-     "mypost":["str"],   
+     "mypost":[],   
     "Name":name,
     "Email":email,
     "Birthday":birthday,
