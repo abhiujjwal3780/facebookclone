@@ -1,0 +1,35 @@
+body{
+    background-color: black !important;
+}
+.div1{
+    height: 500px !important;
+    width: 100% !important;
+    background-color:rgb(0, 0, 0) !important;
+}
+.cover{
+    background-image: url("https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80");
+    height: 400px;
+    width: 800px !important;
+    text-align: center;
+    position: relative;
+    color: whitesmoke !important;
+}
+.bruce{
+    height: 168px;
+    width: 168px;
+    border: 5px solid white ;
+    border-radius: 60px;
+    position: absolute;
+    top: 270px;
+    left: 500px;
+
+}
+h2{
+    position: absolute;
+    top: 450px;
+    left: 500px; 
+}
+.form1{
+    background-color: rgb(23, 22, 22);
+    color: seashell;
+}

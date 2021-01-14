@@ -1,0 +1,107 @@
+@media only screen and (max-width: 600px) {
+    #header{
+    position: fixed;
+    top:0px;
+    color:white;
+    width:97%;
+    flex-direction: column;
+    display:flex;
+    background-color: rgb(35, 56, 241);
+    justify-content: space-between;
+    }
+    .posts{
+        align-items: center;
+        width:300px;
+        height: auto;
+        padding:50px;
+        border: 1px solid gray;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        background-color: rgb(224, 220, 220);
+    }
+    #topbody{
+        background-color: rgb(152, 174, 235);
+        border: 1px solid blue;
+        position: relative;
+        top:90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #postdiv{
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+    }
+  }
+@media only screen and (min-width: 600px) {
+    #header{
+    position: fixed;
+    top:0px;
+    color: white;
+    width: 99%;
+    flex-direction: row;
+    display:flex;
+    background-color: rgb(35, 56, 241);
+    justify-content: space-between;
+    }
+    .posts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        width:500px;
+        height: auto;
+        padding:50px;
+        border: 1px solid gray;
+        margin: 5px;
+        border-radius: 15px;
+        background-color: rgb(224, 220, 220);
+    }
+    #topbody{
+        background-color: rgb(152, 174, 235);
+        border: 1px solid blue;
+        position: relative;
+        top:40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #postdiv{
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+  }
+.navlink{
+    display: flex;
+    margin-right: 10px;
+    
+}
+.links{
+    margin-right: 20px;
+}
+
+#newpostbtn{
+    color:blue;
+    background-color:white;
+    padding:8px;
+    border: 3px solid rgb(69, 69, 212);
+    align-items: center;
+    border-radius: 7px;
+}
+#mypic{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
